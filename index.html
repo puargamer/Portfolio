@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Box personal portfolio Template</title>
-    <link rel="icon" href="img/fav.png" type="image/x-icon">
+    <title>Ivan Kwok</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -42,236 +41,155 @@
     <!-- end Preloader -->
 
     <div class="container-fluid">
-        <!-- box header -->
+        <!-- box-header -->
         <header class="box-header">
             <div class="box-logo">
-                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+                <a href="portfolio.html"><img src="img/home.png" width="30" alt="Logo"></a>
             </div>
             <!-- box-nav -->
             <a class="box-primary-nav-trigger" href="#0">
                 <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
             </a>
-            <!-- box-primary-nav-trigger -->
         </header>
-        <!-- end box header -->
+        <!-- end box-header -->
 
         <!-- nav -->
         <nav>
             <ul class="box-primary-nav">
                 <li class="box-label">About me</li>
 
-                <li><a href="index.html">Intro</a> <i class="ion-ios-circle-filled color"></i></li>
+                <li><a href="portfolio.html">portfolio</a> <i class="ion-ios-circle-filled color"></i></li>
                 <li><a href="about.html">About me</a></li>
-                <li><a href="services.html">services</a></li>
-                <li><a href="portfolio.html">portfolio</a></li>
-                <li><a href="contact.html">contact me</a></li>
 
+                <li class="box-label">Links</li>
 
-
-                <li class="box-label">Follow me</li>
-
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-dribbble"></i></a></li>
+                <li class="box-social"><a href="https://www.linkedin.com/in/ivan-kwok-a2892432b/"><i class="ion-social-linkedin"></i></a></li>
+                <li class="box-social"><a href="https://github.com/puargamer"><i class="ion-social-github"></i></a></li>
             </ul>
         </nav>
         <!-- end nav -->
-
-        <!-- box-intro -->
-        <section class="box-intro">
-            <div class="table-cell">
-                <h1 class="box-headline letters rotate-2">
-                    <span class="box-words-wrapper">
-                        <b class="is-visible">design.</b>
-                        <b>&nbsp;coding.</b>
-                        <b>graphic.</b>
-                    </span>
-		        </h1>
-                <h5>everything you need to build your personal portfolio</h5>
-            </div>
-
-            <div class="mouse">
-                <div class="scroll"></div>
-            </div>
-        </section>
-        <!-- end box-intro -->
     </div>
 
-    <!-- portfolio div -->
-    <div class="portfolio-div">
-        <div class="portfolio">
-            <div class="no-padding portfolio_container">
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6  fashion logo">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mockups in seconds</span>
-                                    <em>Fashion / Logo</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+    <!-- top bar -->
+    <div class="top-bar">
+        <h1>portfolio</h1>
+        <p>Selected Works</p>
+    </div>
+    <!-- end top bar -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 ads graphics">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Floating mockups</span>
-                                    <em>Ads / Graphics</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+    <!-- main container -->
+    <div class="main-container portfolio-inner clearfix">
+        <!-- portfolio div -->
+        <div class="portfolio-div">
+            <div class="portfolio">
+                <!-- portfolio_filter -->
+                <div class="categories-grid wow fadeInLeft">
+                    <nav class="categories text-center">
+                        <ul class="portfolio_filter">
+                            <li><a href="" class="active" data-filter="*">All</a></li>
+                            <li><a href="" data-filter=".games">Games</a></li>
+                            <li><a href="" data-filter=".uiux">UI/UX</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <!-- end single work -->
+                <!-- portfolio_filter -->
 
-                <!-- single work -->
-                <div class="col-md-6 col-sm-12 photography">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Photorealistic smartwatch</span>
-                                    <em>Photography</em>
+                <!-- portfolio_container -->
+                <div class="no-padding portfolio_container clearfix">
+                    <!-- single work -->
+                    <div class="col-md-4 col-sm-6 uiux">
+                        <a href="projects/project_careerbridge.html" class="portfolio_item">
+                            <img src="img/projects/careerbridge.png" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>CareerBridge</span>
+                                        <em>UI/UX</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 fashion ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Held by hands</span>
-                                    <em>Fashion / Ads</em>
+                    <!-- single work -->
+                    <div class="col-md-4 col-sm-6 uiux">
+                        <a href="projects/project_mealsforall.html" class="portfolio_item">
+                            <img src="img/projects/mealsforall.png" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Meals For All</span>
+                                        <em>UI/UX</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
+                    <!-- single work -->
+                    <div class="col-md-4 col-sm-6 games uiux">
+                        <a href="projects/project_wipeout3.html" class="portfolio_item">
+                            <img src="img/projects/wipeout3.png" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Wipeout 3 Main Menu Recreation</span>
+                                        <em>Games, UI/UX</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-6 col-sm-12 photography">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Photorealistic smartwatch</span>
-                                    <em>Photography</em>
+                    <!-- single work -->
+                    <div class="col-md-4 col-sm-6 games">
+                        <a href="projects/project_amusia.html" class="portfolio_item">
+                            <img src="img/projects/amusia.png" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Amusia</span>
+                                        <em>Games</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
+                    <!-- single work -->
+                    <div class="col-md-4 col-sm-6 games">
+                        <a href="projects/project_perrofishing.html" class="portfolio_item">
+                            <img src="img/projects/perro.png" alt="image" class="img-responsive" />
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span>Perro Fishing</span>
+                                        <em>Games</em>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                        </a>
+                    </div>
+                    <!-- end single work -->
 
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
                 </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
-
-                <!-- single work -->
-                <div class="col-md-3 col-sm-6 graphics ads">
-                    <a href="single-project.html" class="portfolio_item">
-                        <img src="http://placehold.it/1000x1000" alt="image" class="img-responsive" />
-                        <div class="portfolio_item_hover">
-                            <div class="portfolio-border clearfix">
-                                <div class="item_info">
-                                    <span>Mobile devices</span>
-                                    <em>Graphics / Ads</em>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end single work -->
+                <!-- end portfolio_container -->
             </div>
-            <!-- end portfolio_container -->
+            <!-- portfolio -->
         </div>
-        <!-- portfolio -->
+        <!-- end portfolio div -->
     </div>
-    <!-- end portfolio div -->
+    <!-- end main container -->
+
 
     <!-- footer -->
     <footer>
         <div class="container-fluid">
-            <p class="copyright">© Box Portfolio 2016</p>
+            <!--<p class="copyright">© Box Portfolio 2016</p>-->
         </div>
     </footer>
     <!-- end footer -->
@@ -279,6 +197,7 @@
     <!-- back to top -->
     <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
     <!-- end back to top -->
+
 
 
 
